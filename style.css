@@ -1,0 +1,138 @@
+#logo {
+    width: 100%;
+    height: 50px;
+    background-color: darkcyan;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(25, 245, 245);
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+
+#nav1,
+#nav2,
+#nav3,
+#nav4 {
+    width: 24%;
+    height: 50px;
+    background-color: rgb(137, 139, 0);
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#about {
+    width: 45%;
+    height: 650px;
+    background-color: rgb(233, 107, 3);
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#link1 {
+    width: 45%;
+    height: 300px;
+    background-color: rgb(35, 9, 205);
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 130px;
+}
+
+#link2 {
+    width: 45%;
+    height: 300px;
+    background-color: darkcyan;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 320px;
+}
+
+#info{
+    width: 99%;
+    height: 200px;
+    background-color: darkcyan;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    position: absolute;
+    }
+#logo:hover,#header:hover,#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#about:hover,#link1:hover,#link2:hover,#info:hover{
+   
+    background-color: rgba(6, 243, 46, 0.591);
+    color: aliceblue;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:monospace;
+    font-style: italic;
+    border: 1px solid rgb(246, 6, 6);
+    border-radius: 50px;
+    transition: all 3s;
+    cursor: pointer;
+}
+
